@@ -4,7 +4,7 @@
         {
             "name": "live",
             "type": 0,
-            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/PizazzGY/TVBox/main/live.txt",
+            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/expkids/live/main/TW.txt",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.com/tv/{name}.png"
@@ -12,7 +12,7 @@
         {
             "name": "live2",
             "type": 0,
-            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/expkids/live1/main/PDX-V6.txt",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.com/tv/{name}.png"
