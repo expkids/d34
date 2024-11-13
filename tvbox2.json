@@ -100,15 +100,14 @@
             "ext": "./JS/js/毒蛇电影.js"
         },
         {
-            "key": "hipy_js_4K-AV",
-            "name": "4K┃JS",
+            "key": "drpy_js_BT",
+            "name": "BT┃JS",
             "type": 3,
-            "api": "./JS/lib/drpy.min.js",
+            "api": "https://git.acwing.com/iduoduo/orange/-/raw/main/drpy_libs/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "order_num": 0,
-            "ext": "./JS/js/4K-AV.js"
+            "ext": "./JS/js/BT影视.js"
         },
         {
             "key": "hipy_js_多多追剧[优]",
@@ -176,15 +175,6 @@
             "ext": "./xBPQ/素白白.json"
         },
         {
-            "key": "csp_xBPQ_白嫖影视",
-            "name": "白嫖┃BPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": "1",
-            "jar": "./JAR/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
-            "ext": "./xBPQ/白嫖影视.json"
-        },
-        {
             "key": "爱电影",
             "name": "爱影┃BPQ",
             "type": 3,
@@ -231,60 +221,6 @@
             "ext": "./xBPQ/两个BT.json"
         },
         {
-            "key": "蘑菇",
-            "name": "蘑菇┃BPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "./JAR/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
-            "ext": {
-                "主页url": "https://www.moguys.work/",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-                "搜索url": "https://www.moguys.work/vodsearch/-------------.html?wd={wd}",
-                "分类url": "https://www.moguys.work/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;ak"
-            }
-        },
-        {
-            "key": "saohuo",
-            "name": "骚火┃BPQ",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 0,
-            "quickSearch": 1,
-            "playerType": "2",
-            "api": "csp_XBPQ",
-            "jar": "./JAR/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
-            "ext": {
-                "嗅探词": ".m3u8#.mp4#.m3u8?#freeok.mp4",
-                "分类url": "https://saohuo.tv/list/{cateId}-{catePg}.html;;vr1au0",
-                "倒序": "1",
-                "分类": "动漫$4#电影$1#电视剧$2#港剧$21#韩剧$22#台剧$26#日剧$24#美剧$23",
-                "数组二次截取": "class=\"v_list\">&&</ul>",
-                "数组": "\"v_img\"&&/div>",
-                "标题": "title=\"&&\"",
-                "副标题": "v_note\"&&</div",
-                "跳转播放链接": "<iframe*src=\"&&\"",
-                "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
-                "三次跳转播放链接": "\"url\"*\"&&\""
-            }
-        },
-        {
-            "key": "csp_看客网",
-            "name": "看客┃BPQ",
-            "type": 3,
-            "playerType": "1",
-            "api": "csp_XBPQ",
-            "jar": "./JAR/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
-            "ext": {
-                "分类url": "https://kanmeiju.org/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}/;;ax",
-                "分类": "剧集$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi#短剧$duanju",
-                "数组二次截取": "class=\"pic-list&&</ul",
-                "数组": "<li>&&</li",
-                "线路数组": "class=\"py-tabs&&</select>"
-            }
-        },
-        {
             "key": "XBPQ_4k影视",
             "name": "4K┃BPQ",
             "jar": "./JAR/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
@@ -320,13 +256,31 @@
             "ext": "./XYQH/mp4影视.json"
         },
         {
-            "key": "新6v",
-            "name": "6V┃磁力",
+            "key": "Bt0",
+            "name": "不太灵|磁力",
             "type": 3,
-            "api": "csp_XYQHiker",
-            "playerType": 2,
-            "jar": "./JAR/XYQH.jar;md5;81544697BC790013FC5BB1D2939BF0B6",
-            "ext": "./XYQH/6V电影.json"
+            "api": "csp_Bt0",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "jar": "https://www.fish2018.us.kg/p/pg.jar",
+            "ext": "https://www.fish2018.us.kg/p/lib/tokenm.json$$$null$$$noproxy$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "新6V",
+            "name": "新6V|网盘",
+            "type": 3,
+            "api": "csp_Xb6v",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "jar": "https://www.fish2018.us.kg/p/pg.jar",
+            "ext": "https://www.fish2018.us.kg/p/lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
         },
         {
             "key": "电影港",
@@ -519,9 +473,24 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
+            "jar": "https://www.fish2018.us.kg/p/pg.jar",
             "ext": {
                 "aliToken": "tvbox/token.txt",
                 "from": "4k|auto|fhd"
+            }
+        },
+        {
+            "key": "网盘配置",
+            "name": "网盘及彈幕配置",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "jar": "https://www.fish2018.us.kg/p/pg.jar",
+            "ext": "./lib/tokenm.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
             }
         },
         {
@@ -531,8 +500,8 @@
             "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
-            "jar": "./JAR/pg.jar;md5;7C03297C89AA832F88092D4567664AD8",
-            "ext": "https://fm.t4tv.hz.cz/json/market.json"
+            "jar": "pg.jar",
+            "ext": "https://www.fish2018.us.kg/p/pg.jar"
         },
         {
             "key": "push_agent",
